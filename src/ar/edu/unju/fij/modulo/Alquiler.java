@@ -10,7 +10,7 @@ public class Alquiler {
 	private Cliente cliente;
 	private List registro = new ArrayList();
 	private Double montoTotal;
-	
+	private int num;
 	public Alquiler(Vehiculo vehiculo, Cliente cliente) {
 		super();
 		this.isAlquiled = true;
