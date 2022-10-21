@@ -1,6 +1,7 @@
-package ar.edu.unju.fij.modulo;
+package ar.edu.unju.fi.practico8;
 
 public class Responsable {
+
 	private int dni;
 	private String nombre;
 	
@@ -37,6 +38,5 @@ public class Responsable {
 	public String toString() {
 		return "Responsable [Dni=" + dni + ", Nombre=" + nombre + "]";
 	}
-	
 	
 }
