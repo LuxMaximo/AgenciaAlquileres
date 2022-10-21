@@ -7,11 +7,11 @@ public class Alquiler {
 	private boolean isAlquiled;
 	private List<Alquiler> list = new ArrayList<>();
 	private Vehiculo vehiculo;
-	private Cliente cliente;
+	private Responsable cliente;
 	private List registro = new ArrayList();
 	private Double montoTotal;
 	private int num;
-	public Alquiler(Vehiculo vehiculo, Cliente cliente) {
+	public Alquiler(Vehiculo vehiculo, Responsable cliente) {
 		super();
 		this.isAlquiled = true;
 		this.vehiculo = vehiculo;
@@ -75,11 +75,11 @@ public class Alquiler {
 		this.vehiculo = vehiculo;
 	}
 
-	public Cliente getCliente() {
+	public Responsable getCliente() {
 		return cliente;
 	}
 
-	public void setCliente(Cliente cliente) {
+	public void setCliente(Responsable cliente) {
 		this.cliente = cliente;
 	}
 
